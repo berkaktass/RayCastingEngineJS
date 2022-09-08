@@ -12,8 +12,8 @@ const mapCanvasBoundingRect = mapCanvas.getBoundingClientRect();
 const MAP_WIDTH = mapCanvasBoundingRect.width;
 const MAP_HEIGHT = mapCanvasBoundingRect.width;
 
-mapCanvas.width = MAP_WIDTH;
-mapCanvas.height = MAP_HEIGHT;
+mapCanvas.style.width = MAP_WIDTH;
+mapCanvas.style.height = MAP_HEIGHT;
 
 const mapCtx = mapCanvas.getContext("2d");
 
